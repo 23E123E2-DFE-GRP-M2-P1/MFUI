@@ -1,0 +1,86 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+/*   flex-direction: column; */
+/*   width: 25vw; */
+/*   height: 80vh; */
+/*   width: 90vw; */
+/*   height: 20vh; */
+  width: 300px;
+  height: 500px;
+  background-color: #4a4e4d;
+  flex-wrap: wrap;
+/*   justify-content: flex-start; */
+/*   justify-content: flex-end; */
+/*   justify-content: center; */
+/*   justify-content: space-between; */
+/*   justify-content: space-around; */
+  justify-content: space-evenly;
+/*   align-items: flex-start; */
+/*   align-items: flex-end; */
+  align-items: center;
+/*   align-items: stretch; */
+/*   align-items: baseline; */
+/*   align-content: stretch; */
+/*   align-content: flex-start; */
+/*   align-content: flex-end; */
+/*   align-content: center; */
+/*   align-content: space-between; */
+/*   align-content: space-around; */
+  align-content: space-evenly;
+}
+
+.info {
+  background-color: white;
+  height: 100px;
+  padding: 10px;
+}
+
+nav a {
+/*   flex-grow: 1; */
+/*   flex-shrink: 1; */
+/*   height: 50px; */
+  vertical-align: middle;
+/*   top: 20px; */
+  padding: 12px;
+}
+
+nav a:hover {
+  cursor: pointer;
+  background-color: #fe8a71;
+  color: #4a4e4d;
+}
+
+.link1 {
+  background-color: #011f4b;
+  color: white;
+/*   flex-grow: 2; */
+  min-height: 50px;
+/*   margin-top: 100px; */
+}
+
+.link2 {
+  background-color: #03396c;
+  color: white;
+  min-height: 60px;
+}
+
+.link3 {
+  background-color: #005b96;
+  color: white;
+  min-height: 40px;
+}
+
+.link4 {
+  background-color: #6497b1;
+  min-height: 20px;
+}
+
+.link5 {
+  background-color: #b3cde0;
+  min-height: 70px;
+}
